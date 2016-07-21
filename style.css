@@ -1,0 +1,107 @@
+/*
+Theme Name: Bootstrap Starter Kit - Akabakeneko.com
+Theme URI: http://localhost/akabakeneko.com
+Author: James Pask
+Author URI: http://www.jamespask.net
+Description: A bootstrap starter kit template converted for WordPress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: akabakeneko.com
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.post img {
+	float: left;
+  padding-right: 20px;
+}
+
+/*.post img:nth-of-type(2) {
+  float: right;
+  padding-left: 20px;
+}
+*/
+
+/* Style the images within posts and pages
+   Default from WordPress core
+*/
+
+img.alignright {
+	float:right;
+	margin:0 0 1em 1em
+}
+
+img.alignleft {
+	float:left;
+	margin:0 1em 1em 0
+}
+
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+a img.alignright {
+	float:right;
+	margin:0 0 1em 1em
+}
+
+a img.alignleft {
+	float:left;
+	margin:0 1em 1em 0
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+/* Place the title text on top of the featured image
+   in a single post
+*/
+
+.akabakeneko-featured {
+	position: relative;
+}
+
+.akabakeneko-post-title {
+	position: absolute;
+	bottom: 0.25em;
+	left: 0.5em;
+	font-weight: bold;
+	width: 90%;
+	color: white;
+	clear: both;
+	text-transform: uppercase;
+}
+
+#akabakeneko-image {
+	margin-top: 0;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Sort out iframe videos copied and pasted from
+   YouTube. If the user uploads videos from another source, it is likely to break this code!
+*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
