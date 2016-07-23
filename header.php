@@ -1,16 +1,16 @@
 <!--DOCTYPE html -->
-<html><head>
-    <meta charset="utf-8">
-    <title>Bootstrap Starter Kit</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="bskit, bootstrap starter kit, bootstrap builder">
-    <meta name="description" content="Business Startup &amp; Prototyping HTML Framework">
-    
-    <link rel="shortcut icon" href="ico/favicon.png">
-    
-    <?php wp_head(); ?>
-
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Starter Kit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="bskit, bootstrap starter kit, bootstrap builder">
+        <meta name="description" content="Business Startup &amp; Prototyping HTML Framework">
+        
+        <link rel="shortcut icon" href="ico/favicon.png">
+        
+        <?php wp_head(); ?>
+    </head>
 
 <body <?php body_class( $class ); ?>>
     
